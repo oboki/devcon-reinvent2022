@@ -5,6 +5,7 @@ theme: gaia
 footer: devcon 2023
 ---
 <!-- _class: lead -->
+<!-- class: invert -->
 
 # re:Invent2022 @vegas<!--fit-->
 
@@ -26,16 +27,13 @@ footer: devcon 2023
 -->
 ---
 <!--paginate: true -->
-<!--header: ""-->
+<!--header: 들어가기 전에-->
 
-# 들어가기 전에
-
-출장을 준비하며, 다음과 같은 것들을 기대
-
-* DE 업무 관련 AWS 활용 사례 수집
-  * `분석워크로드`, `워크플로우`, `HPC`
-* 기술 동향, 미래의 Major Player 탐색
-* 다른 금융사의 사례 수집
+* __출장을 준비하며 기대한 것들__
+  * DE 업무 관련 AWS 활용 사례 수집
+    * `분석워크로드`, `워크플로우`, `HPC`
+  * 기술 동향, 미래의 Major Player 탐색
+  * 다른 금융사의 사례 수집
 
 ---
 <!--header: 들어가기 전에-->
@@ -61,13 +59,12 @@ footer: devcon 2023
 
 # `FSx for Lustre`
 
-> Virtually Unlimitted Compute Scale, Fully-managed
-
-* https://www.lustre.org/
+* Virtually Unlimitted Compute Scale
+* Fully-managed
 
 <!-- comment:
-  lustre 라는 오픈소스 파일시스템을 기반으로 HPC 등에서 활용하기 좋은 FSx 서비스.
-  대충 빠르고 좋은 파일시스템이라고 생각하면 됨, 그만큼 다루기 어려울 수 있겠는데 AWS 에서 다 관리해줌.
+  lustre 는 대충 빠르고 좋은 파일시스템이라고 생각하면 됨, 그만큼 다루기 어려울 수 있겠는데 AWS 에서 다 관리해줌.
+  lustre 라는, 슈퍼컴퓨팅에 많이 사용되는 오픈소스 파일시스템을 완전 관리형, 클라우드 기반의 무제한 스케일링으로 활용할 수 있음.
   Elastic Network Interface 활용해서, 대역폭 제한 없이 선형으로 성능 늘어남.
 
   * https://aws.amazon.com/ko/blogs/storage/persistent-storage-for-high-performance-workloads-using-amazon-fsx-for-lustre/
@@ -75,11 +72,8 @@ footer: devcon 2023
 -->
 
 ---
-<!--header: 업무 관련 Best Practices 엿보기-->
-
-# `FSx for Lustre`
-
-![bg](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FmaGeZ%2FbtrZUB6TRsL%2F7vv3BxKrRiRAaW3P3c4e8k%2Fimg.png)
+<!--header: 업무 관련 Best Practices 엿보기 - FSx for Lustre-->
+![bg](./img/reinvent_lustre_0.png)
 
 ---
 <!--header: 업무 관련 Best Practices 엿보기-->
@@ -138,6 +132,7 @@ footer: devcon 2023
 
 <!-- comment:
   * https://aws.amazon.com/ko/blogs/big-data/top-analytics-announcements-of-aws-reinvent-2022/
+  * https://youtu.be/H4JRz5yv694
 -->
 
 ---
